@@ -1,0 +1,43 @@
+/* Dark theme background and clean font */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 100px;
+}
+
+.color-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+}
+
+
+.circle.red    { background-color: #E23838; }
+.circle.yellow { background-color: #FFD700; }
+.circle.blue   { background-color: #2196F3; }
+.circle.green  { background-color: #4CAF50; }
+
+
+.count {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e0e0e0;
+}
